@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6cf79a64bd858b2913dfafac14ab820",
+    "revision": "4235bd9423daffd87ff369bc56c5dafd",
     "url": "/nghientai/react-tailwindcss/index.html"
   },
   {
