@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ImageModal from './ImageModel';
 
 const ImageCard = ({ image }) => {
+    const [modalShow, setModalShow] = useState(false);
     const tags = image.tags.split(",");
     return (
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
-            <img src={image.webformatURL} alt="" className="w-full" height="100px" />
+            <div className="relative hover:opacity-1">
+                <img title="Click to zoom"
+                    onClick={() => setModalShow(true)}
+                    src={image.webformatURL} alt="Click to zoom"
+                    className="w-full hover:bg-black hover:opacity-75 focus:outline-none"
+                    height="100px" />
+
+            </div>
+
             <div className="px-6 py-4">
                 <div className="font-bold text-purple-500 text-xl mb-2">Photo by {image.user}</div>
                 <ul>
@@ -31,7 +41,9 @@ const ImageCard = ({ image }) => {
                 ))}
 
             </div>
+            <ImageModal image={image} show={modalShow} onHide={() => setModalShow(false)} />
         </div>
+
     );
 };
 
