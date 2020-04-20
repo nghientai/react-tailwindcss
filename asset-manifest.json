@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/nghientai/react-tailwindcss/static/css/main.3563cb3b.chunk.css",
+    "main.js": "/nghientai/react-tailwindcss/static/js/main.4a41fa53.chunk.js",
+    "main.js.map": "/nghientai/react-tailwindcss/static/js/main.4a41fa53.chunk.js.map",
+    "runtime-main.js": "/nghientai/react-tailwindcss/static/js/runtime-main.bff80287.js",
+    "runtime-main.js.map": "/nghientai/react-tailwindcss/static/js/runtime-main.bff80287.js.map",
+    "static/css/2.69121389.chunk.css": "/nghientai/react-tailwindcss/static/css/2.69121389.chunk.css",
+    "static/js/2.d8f936a1.chunk.js": "/nghientai/react-tailwindcss/static/js/2.d8f936a1.chunk.js",
+    "static/js/2.d8f936a1.chunk.js.map": "/nghientai/react-tailwindcss/static/js/2.d8f936a1.chunk.js.map",
+    "index.html": "/nghientai/react-tailwindcss/index.html",
+    "precache-manifest.f84b11aee6dd5d5c49ccfbb2ebd031d7.js": "/nghientai/react-tailwindcss/precache-manifest.f84b11aee6dd5d5c49ccfbb2ebd031d7.js",
+    "service-worker.js": "/nghientai/react-tailwindcss/service-worker.js",
+    "static/css/2.69121389.chunk.css.map": "/nghientai/react-tailwindcss/static/css/2.69121389.chunk.css.map",
+    "static/css/main.3563cb3b.chunk.css.map": "/nghientai/react-tailwindcss/static/css/main.3563cb3b.chunk.css.map",
+    "static/js/2.d8f936a1.chunk.js.LICENSE.txt": "/nghientai/react-tailwindcss/static/js/2.d8f936a1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bff80287.js",
+    "static/css/2.69121389.chunk.css",
+    "static/js/2.d8f936a1.chunk.js",
+    "static/css/main.3563cb3b.chunk.css",
+    "static/js/main.4a41fa53.chunk.js"
+  ]
+}
